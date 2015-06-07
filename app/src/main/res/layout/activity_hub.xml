@@ -20,27 +20,32 @@
 
     <Button
         style="@style/buttons"
-        android:text="@string/spotify_streamer"
-        android:background="@color/udacious"/>
+        android:id="@+id/spotify_streamer"
+        android:text="@string/spotify_streamer"/>
 
     <Button
         style="@style/buttons"
+        android:id="@+id/scores_app"
         android:text="@string/scores_app"/>
 
     <Button
         style="@style/buttons"
+        android:id="@+id/library_app"
         android:text="@string/library_app"/>
 
     <Button
         style="@style/buttons"
+        android:id="@+id/build_it_bigger"
         android:text="@string/build_it_bigger"/>
 
     <Button
         style="@style/buttons"
+        android:id="@+id/bacon_reader"
         android:text="@string/bacon_reader"/>
 
     <Button
         style="@style/buttons"
+        android:id="@+id/capstone"
         android:text="@string/capstone"
         android:background="@color/capstone"/>
 
