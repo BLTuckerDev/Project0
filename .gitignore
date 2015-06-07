@@ -33,3 +33,9 @@ proguard/
 
 # Log Files
 *.log
+
+
+*.iml
+
+## Directory-based project format:
+.idea/
