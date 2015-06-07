@@ -1,52 +1,49 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center_horizontal">
 
-    <LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:orientation="vertical"
-        android:padding="20dp"
-        android:gravity="center_horizontal">
-
-        <TextView
-            android:text="@string/my_nanodegree_apps"
-            android:layout_centerInParent="true"
-            android:layout_alignParentTop="true"
-            android:textSize="26sp"
-            android:layout_width="wrap_content"
-            android:layout_marginBottom="30dp"
-            android:layout_height="wrap_content"/>
-
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/spotify_streamer"/>
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/scores_app"/>
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+    <TextView
+        android:text="@string/my_nanodegree_apps"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:textColor="@android:color/black"
+        android:textSize="26sp"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_height="wrap_content"/>
 
 
-    </LinearLayout>
+    <Button
+        style="@style/buttons"
+        android:text="@string/spotify_streamer"
+        android:background="@color/udacious"/>
+
+    <Button
+        style="@style/buttons"
+        android:text="@string/scores_app"/>
+
+    <Button
+        style="@style/buttons"
+        android:text="@string/library_app"/>
+
+    <Button
+        style="@style/buttons"
+        android:text="@string/build_it_bigger"/>
+
+    <Button
+        style="@style/buttons"
+        android:text="@string/bacon_reader"/>
+
+    <Button
+        style="@style/buttons"
+        android:text="@string/capstone"
+        android:background="@color/capstone"/>
 
 
+</LinearLayout>
 
-</RelativeLayout>
